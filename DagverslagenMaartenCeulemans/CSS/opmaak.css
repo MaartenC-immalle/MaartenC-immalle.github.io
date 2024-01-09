@@ -1,3 +1,19 @@
 body {
     font-family: sans-serif;
 }
+
+nav li{
+    display: inline;
+    padding-top: 10px;
+    margin-right: 30px; 
+
+}
+
+nav {
+    float: right;
+}
+
+hr{
+    border: solid black;
+    width: 100%;
+}
