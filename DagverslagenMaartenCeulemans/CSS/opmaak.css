@@ -1,14 +1,279 @@
-body {
+body{
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.logo{
+    padding: 20px;
+}
+
+nav {
+    padding-top: 45px;
+    padding-right: 20px;
+    float: right;
 }
 
 nav li{
     display: inline;
-    padding-top: 10px;
-    margin-right: 30px; 
-
+    margin-right: 40px;
 }
 
-nav {
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    text-decoration-color: #15b7b7;
+}
+
+header{
+    padding-bottom: 10px;
+}
+
+footer{
+    padding: 10px;
+}
+
+aside{
+    padding-top: 20px;
+}
+
+.aside-container {
+    display: flex;
+    justify-content: center;
+    background-color: #d9d9d9;
+}
+
+.aside-item{
+    margin: 0 10px;
+}
+
+.Contactgegevens-aside{
+    float: left;
+    margin-right: 50px;
+    
+}
+
+.Contactgegevens{
+    color: #15b7b7;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email{
+    text-decoration: none;
+}
+
+.telefoonnummer{
+    text-decoration: none;
+}
+
+.Sociale-media-aside{
     float: right;
+    margin-left: 50px;
+    margin-right: 90px;
+    opacity: 100%;
 }
+
+.Sociale-media{
+    color: #15b7b7;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fa {
+    align-items: center;
+    padding: 10px;
+    font-size: 50px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.footer-note{
+    text-align: center;
+}
+
+.achtergrond{
+    opacity: 90%;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    background-color: #074f57;
+    background-image: url("/Afbeeldingen/achtergrond\ website.png");
+    background-size: cover;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.section-container{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.afbeelding-section{
+    float: left;
+    margin-top: 200px;
+    margin-right: 50px;
+}
+
+.afbeelding{
+    height: 600px;
+}
+
+.tekst{
+    float: right;
+    margin-left: 50px;
+    margin-top: 200px;
+    background-color: #235AAD;
+    padding: 20px;
+    height: 600px;
+}
+
+.Contactinformatie{
+    background-color: #235AAD;
+    padding: 20px;
+    height: 600px;
+}
+
+.TCOG-Belgie{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: "Cera Pro", Sans-serif;
+}
+
+.TCOG-Nederland{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: "Cera Pro", Sans-serif;
+}
+
+.email-contact{
+    text-decoration: underline;
+    color: white;
+}
+
+.telefoonnummer-contact{
+   text-decoration: underline;
+    color: white;
+}
+
+.Contactinformatie-titel{
+    font-weight: 900;
+    font-family: "Cera Pro", Sans-serif;
+    font-size: 20px;
+}
+
+.maps-section{
+    float: left;
+    margin-top: 200px;
+    margin-right: 0px;
+}
+
+.contactgegevens-section{
+    float: right;
+    margin-top: 200px;
+    margin-right: 0px;
+}
+
+.Ga-naar{
+    color: #15b7b7;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Sitemap{
+    text-decoration: none;
+}
+
+.sitemap-item{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.Lijst{
+    padding: 20px;
+    color: white;
+
+}
+
+.Sitemap-pagina{
+    color: #15b7b7;
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 100%;
+}
+
+.hero-sitemap{
+    display: flex;
+    justify-content: center;
+    background-color: #074f57;
+    background-image: url("/Afbeeldingen/achtergrond website.png");
+    background-size: cover;
+    color: white;
+}
+
+.section-container-sitemap{
+    max-width: 100%;
+    margin-left: 60px;
+    margin-right: auto;
+}
+
+.titel-sitemap{
+    margin-top: 120px;
+    margin-right: 0px;
+}
+
+.lijst-sitemap{
+    margin-left: 0px;
+    margin-bottom: 120px;
+    background-color: #235AAD;
+    padding: 20px;
+    height: auto;
+}
+
