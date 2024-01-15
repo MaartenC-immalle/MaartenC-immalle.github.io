@@ -140,7 +140,7 @@ aside{
     display: flex;
     justify-content: center;
     background-color: #074f57;
-    background-image: url("/Afbeeldingen/achtergrond\ website.png");
+    background-image: url("/DagverslagenMaartenCeulemans/Afbeeldingen/achtergrond-website.png");
     background-size: cover;
     color: white;
     padding-top: 50px;
@@ -148,7 +148,7 @@ aside{
 }
 
 .section-container{
-    max-width: 50%;
+    max-width: 65%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
@@ -277,7 +277,7 @@ aside{
     display: flex;
     justify-content: center;
     background-color: #074f57;
-    background-image: url("/Afbeeldingen/achtergrond\ website.png");
+    background-image: url("/DagverslagenMaartenCeulemans/Afbeeldingen/achtergrond-website.png");
     background-size: cover;
     color: white;
     padding-top: 50px;
