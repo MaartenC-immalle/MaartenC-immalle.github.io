@@ -298,3 +298,9 @@ aside{
     opacity: 100%;
     margin-top: 0px;
 }
+
+.TCOG_link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
