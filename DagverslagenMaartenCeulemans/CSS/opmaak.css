@@ -300,6 +300,6 @@ aside{
 }
 
 .TCOG_link{
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
